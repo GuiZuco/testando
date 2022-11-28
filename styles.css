@@ -1,0 +1,72 @@
+body{
+    letter-spacing: 1px;
+    font-family:'Inter', sans-serif;
+    background-color: #2e2e2e;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #2e2e2e;
+}
+
+nav{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+}
+
+.logo{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.logo:hover{
+    color: #FF5733;
+    transition: 0.5s;
+}
+
+span{
+    color: #FF5733;
+}
+
+/*PRINCIPAL*/
+
+.home p{
+    font-size: 0.8em;
+    color: #FFFFFF;
+}
+
+.home h1{
+    font-weight: ;
+    font-size: 2em;
+    margin: 0.3em 0;
+    color: #FF5733;
+    font-family: 'Poppins';
+}
+
+.container-home{
+   font-weight: 300;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   padding: 3em 0;
+}
+
+.img-home{
+    order: -1;
+    width: 75%;
+    margin: 2em 0;
+}
+
+
